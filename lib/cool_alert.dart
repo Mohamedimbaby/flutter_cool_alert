@@ -72,6 +72,7 @@ class CoolAlert {
 
     /// Determines if cancel button is shown or not
     bool showCancelBtn = false,
+    bool showOkBtn = false,
 
     /// Dialog Border Radius
     double borderRadius = 10.0,
@@ -131,6 +132,7 @@ class CoolAlert {
       titleTextStyle: titleTextStyle,
       textTextStyle: textTextStyle,
       showCancelBtn: showCancelBtn,
+      showOkBtn: showOkBtn,
       borderRadius: borderRadius,
       backgroundColor: backgroundColor,
       flareAsset: flareAsset,
